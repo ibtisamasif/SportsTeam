@@ -1,8 +1,7 @@
-package com.example.sportsteamnew.core.koin
+package com.example.sportsteam2.core
 
 import android.content.Context
-import com.example.sportsteamnew.core.ApiService
-import com.example.sportsteamnew.core.Resource
+import com.example.sportsteam2.core.koin.providers.models.SearchResponse
 
 class ApiManager(private val apiInterface: ApiService, val context: Context) {
 
@@ -11,7 +10,6 @@ class ApiManager(private val apiInterface: ApiService, val context: Context) {
             Resource.Success(
                 apiInterface.searchPlayers(
                     query = query,
-                    apiKey = "50130162"
                 )
             )
         } catch (e: Exception) {

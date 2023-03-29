@@ -1,4 +1,4 @@
-package com.example.sportsteamnew.ui.theme
+package com.example.sportsTeam.ui.theme
 
 import androidx.compose.material.Typography
 import androidx.compose.ui.text.TextStyle
