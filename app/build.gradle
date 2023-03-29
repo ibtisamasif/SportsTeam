@@ -1,6 +1,5 @@
 apply plugin: 'com.android.application'
 apply plugin: 'kotlin-android'
-apply plugin: 'com.google.gms.google-services'
 apply plugin: 'kotlin-kapt'
 apply plugin: 'com.android.application'
 apply plugin: 'kotlin-android-extensions'
@@ -22,7 +21,7 @@ android {
 
     compileSdkVersion 33
     defaultConfig {
-        applicationId "com.connectavo.app.sportsProject"
+        applicationId "com.android.app.sportsProject"
         minSdkVersion 25
         targetSdkVersion 33
 
@@ -51,7 +50,7 @@ android {
     lint {
         abortOnError false
     }
-    namespace 'com.connectavo.app.sportsProject'
+    namespace 'com.android.app.sportsProject'
 
     composeOptions {
         kotlinCompilerExtensionVersion '1.2.0'

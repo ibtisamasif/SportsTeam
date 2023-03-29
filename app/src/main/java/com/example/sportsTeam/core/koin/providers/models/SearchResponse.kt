@@ -7,14 +7,14 @@ data class SearchResponse(
 )
 
 data class Player(
-    @SerializedName("idPlayer") val idPlayer: String?,
-    @SerializedName("strPlayer") val strPlayer: String?,
-    @SerializedName("strNationality") val strNationality: String?,
-    @SerializedName("strTeam") val strTeam: String?,
-    @SerializedName("strSport") val strSport: String?,
-    @SerializedName("dateBorn") val dateBorn: String?,
-    @SerializedName("strPosition") val strPosition: String?,
-    @SerializedName("strHeight") val strHeight: String?,
-    @SerializedName("strWeight") val strWeight: String?,
-    @SerializedName("strThumb") val strThumb: String?
+    @SerializedName("idPlayer") val idPlayer: String? = null,
+    @SerializedName("strPlayer") val strPlayer: String? = null,
+    @SerializedName("strNationality") val strNationality: String? = null,
+    @SerializedName("strTeam") val strTeam: String? = null,
+    @SerializedName("strSport") val strSport: String? = null,
+    @SerializedName("dateBorn") val dateBorn: String? = null,
+    @SerializedName("strPosition") val strPosition: String? = null,
+    @SerializedName("strHeight") val strHeight: String? = null,
+    @SerializedName("strWeight") val strWeight: String? = null,
+    @SerializedName("strThumb") val strThumb: String? = null
 )
