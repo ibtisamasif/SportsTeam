@@ -1,12 +1,12 @@
-package com.example.sportsteam2.core.koin
+package com.example.sportsTeam.core.koin
 
 
-import com.example.sportsteam2.core.base.modules.accountRepoModule
-import com.example.sportsteam2.core.base.modules.accountViewModelModule
-import com.example.sportsteam2.core.base.modules.baseRepoModule
-import com.example.sportsteam2.core.base.modules.baseViewModelModule
-import com.example.sportsteam2.core.koin.modules.apiModule
-import com.example.sportsteam2.core.modules.retrofitModule
+import com.example.sportsTeam.core.base.modules.accountRepoModule
+import com.example.sportsTeam.core.base.modules.accountViewModelModule
+import com.example.sportsTeam.core.base.modules.baseRepoModule
+import com.example.sportsTeam.core.base.modules.baseViewModelModule
+import com.example.sportsTeam.core.koin.modules.apiModule
+import com.example.sportsTeam.core.modules.retrofitModule
 import org.koin.core.module.Module
 
 

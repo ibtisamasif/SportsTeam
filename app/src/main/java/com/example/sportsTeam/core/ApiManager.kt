@@ -1,9 +1,8 @@
-package com.example.sportsteam2.core
+package com.example.sportsTeam.core
 
-import android.content.Context
-import com.example.sportsteam2.core.koin.providers.models.SearchResponse
+import com.example.sportsTeam.core.koin.providers.models.SearchResponse
 
-class ApiManager(private val apiInterface: ApiService, val context: Context) {
+class ApiManager(private val apiInterface: ApiService) {
 
     suspend fun searchPlayers(query: String): Resource<SearchResponse> {
         return try {

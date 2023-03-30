@@ -1,8 +1,8 @@
-package com.example.sportsteam2.core.koin.modules
+package com.example.sportsTeam.core.koin.modules
 
 import android.content.Context
-import com.example.sportsteam2.core.ApiManager
-import com.example.sportsteam2.core.ApiService
+import com.example.sportsTeam.core.ApiManager
+import com.example.sportsTeam.core.ApiService
 import org.koin.dsl.module
 import retrofit2.Retrofit
 
@@ -16,7 +16,7 @@ val apiModule = module {
         apiInterface: ApiService,
         context: Context,
     ): ApiManager {
-        return ApiManager(apiInterface, context)
+        return ApiManager(apiInterface)
     }
 
     single { getAPIManger(get(), get()) }

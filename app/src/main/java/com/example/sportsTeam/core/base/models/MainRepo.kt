@@ -1,8 +1,8 @@
-package com.example.sportsteam2.core.base.models
+package com.example.sportsTeam.core.base.models
 
-import com.example.sportsteam2.core.ApiManager
-import com.example.sportsteam2.core.Resource
-import com.example.sportsteam2.core.koin.providers.models.SearchResponse
+import com.example.sportsTeam.core.ApiManager
+import com.example.sportsTeam.core.Resource
+import com.example.sportsTeam.core.koin.providers.models.SearchResponse
 
 
 class MainRepo(

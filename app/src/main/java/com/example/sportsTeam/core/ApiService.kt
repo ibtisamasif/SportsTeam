@@ -1,6 +1,6 @@
-package com.example.sportsteam2.core
+package com.example.sportsTeam.core
 
-import com.example.sportsteam2.core.koin.providers.models.SearchResponse
+import com.example.sportsTeam.core.koin.providers.models.SearchResponse
 import retrofit2.http.GET
 import retrofit2.http.Query
 

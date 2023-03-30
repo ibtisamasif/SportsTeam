@@ -24,10 +24,8 @@ android {
         applicationId "com.android.app.sportsProject"
         minSdkVersion 25
         targetSdkVersion 33
-
-        ///////update the force update version from constant file////////
-        versionCode 225
-        versionName "3.9.55"
+        versionCode 1
+        versionName "1.0.0"
         vectorDrawables.useSupportLibrary = true
         testInstrumentationRunner "androidx.test.runner.AndroidJUnitRunner"
         multiDexEnabled true
@@ -76,19 +74,12 @@ dependencies {
 
     implementation 'org.jetbrains.kotlinx:kotlinx-coroutines-core:1.6.4'
     implementation 'org.jetbrains.kotlinx:kotlinx-coroutines-android:1.6.4'
-    implementation 'androidx.core:core-ktx:1.9.0'
 
     //Koin
     implementation "org.koin:koin-core:2.0.1"
     implementation "org.koin:koin-androidx-viewmodel:2.0.1"
     implementation "org.koin:koin-java:2.0.1"
     implementation "androidx.lifecycle:lifecycle-viewmodel-ktx:2.5.1"
-
-    implementation 'io.reactivex.rxjava3:rxjava:3.0.1'
-    implementation 'io.reactivex.rxjava3:rxandroid:3.0.0'
-
-    implementation 'androidx.work:work-runtime-ktx:2.8.0-beta01'
-
 
     // Jetpack Compose
     implementation "androidx.compose.ui:ui:1.0.5"

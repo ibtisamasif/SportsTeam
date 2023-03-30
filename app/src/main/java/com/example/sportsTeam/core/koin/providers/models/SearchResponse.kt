@@ -1,4 +1,4 @@
-package com.example.sportsteam2.core.koin.providers.models
+package com.example.sportsTeam.core.koin.providers.models
 
 import com.google.gson.annotations.SerializedName
 

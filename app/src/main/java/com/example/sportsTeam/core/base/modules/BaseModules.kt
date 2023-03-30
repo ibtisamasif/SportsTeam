@@ -1,7 +1,7 @@
-package com.example.sportsteam2.core.base.modules
+package com.example.sportsTeam.core.base.modules
 
-import com.example.sportsteam2.core.base.models.BaseRepo
-import com.example.sportsteam2.core.base.viewmodels.BaseViewModel
+import com.example.sportsTeam.core.base.models.BaseRepo
+import com.example.sportsTeam.core.base.viewmodels.BaseViewModel
 import org.koin.androidx.viewmodel.dsl.viewModel
 import org.koin.dsl.module
 

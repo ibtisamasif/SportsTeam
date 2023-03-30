@@ -1,4 +1,4 @@
-package com.example.sportsteam2.core.modules
+package com.example.sportsTeam.core.modules
 
 import android.content.Context
 import com.chuckerteam.chucker.api.ChuckerInterceptor

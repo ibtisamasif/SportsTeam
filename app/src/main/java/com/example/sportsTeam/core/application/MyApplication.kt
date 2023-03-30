@@ -1,9 +1,7 @@
-package com.example.sportsTeam.ui
+package com.example.sportsTeam.core.application
 
 import android.app.Application
-import androidx.activity.compose.setContent
-import com.example.sportsteam2.core.koin.getListOfModules
-import org.koin.android.ext.android.inject
+import com.example.sportsTeam.core.koin.getListOfModules
 import org.koin.android.ext.koin.androidContext
 import org.koin.android.ext.koin.androidLogger
 import org.koin.core.context.startKoin

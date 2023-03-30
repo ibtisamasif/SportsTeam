@@ -11,7 +11,6 @@ import androidx.compose.material.TextField
 import androidx.compose.material.icons.Icons
 import androidx.compose.material.icons.filled.Person
 import androidx.compose.runtime.Composable
-import androidx.compose.runtime.MutableState
 import androidx.compose.runtime.mutableStateOf
 import androidx.compose.runtime.remember
 import androidx.compose.ui.Alignment
@@ -19,12 +18,12 @@ import androidx.compose.ui.Modifier
 import androidx.compose.ui.graphics.Color
 import androidx.compose.ui.text.font.FontWeight
 import androidx.compose.ui.unit.dp
-import com.example.sportsteam2.core.Resource
-import com.example.sportsteam2.core.koin.providers.models.Player
+import com.example.sportsTeam.core.Resource
+import com.example.sportsTeam.core.koin.providers.models.Player
 
 @Composable
 fun MainScreen(viewModel: MainViewModel) {
-    var players = remember { mutableStateOf(List(size = 10) { Player("", "") }) }
+    val players = remember { mutableStateOf(List(size = 10) { Player("", "") }) }
     val query = remember { mutableStateOf("") }
 
     Column(modifier = Modifier.padding(16.dp)) {

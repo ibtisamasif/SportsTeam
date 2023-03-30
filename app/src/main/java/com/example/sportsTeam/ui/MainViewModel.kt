@@ -1,18 +1,16 @@
 package com.example.sportsTeam.ui
 
 import androidx.lifecycle.viewModelScope
-import com.example.sportsteam2.core.base.viewmodels.BaseViewModel
-import com.example.sportsteam2.core.Resource
-import com.example.sportsteam2.core.base.models.MainRepo
-import com.example.sportsteam2.core.koin.providers.models.Player
-import com.example.sportsteam2.core.koin.providers.models.SearchResponse
+import com.example.sportsTeam.core.Resource
+import com.example.sportsTeam.core.base.models.MainRepo
+import com.example.sportsTeam.core.base.viewmodels.BaseViewModel
+import com.example.sportsTeam.core.koin.providers.models.SearchResponse
 import kotlinx.coroutines.Dispatchers
 import kotlinx.coroutines.flow.MutableStateFlow
 import kotlinx.coroutines.launch
 
 class MainViewModel(private val repository: MainRepo) : BaseViewModel(repository) {
     private val playersObserver = MutableStateFlow<Resource<SearchResponse>>(Resource.Loading())
-    val player: Player? = null
 
     fun searchPlayers(
         query: String,

@@ -1,6 +1,6 @@
-package com.example.sportsteam2.core.base.models
+package com.example.sportsTeam.core.base.models
 
-import com.example.sportsteam2.core.ApiManager
+import com.example.sportsTeam.core.ApiManager
 
 
 open class BaseRepo(private val apiManager: ApiManager) {
